@@ -4,11 +4,12 @@ const express = require("express");
 const routes = express.Router();
 //definindo endpoints
 routes.get("/", (req, res) => {
-  res.send("Raiz");
+  res.render("home");
 });
 
-routes.get("/opa", (req, res) => {
-  res.render("home");
+routes.post("/", (req, res) => {
+  const { cotacao, valor } = req.body;
+  res.render("result", { cotacao, valor });
 });
 
 //exportando modulo routes

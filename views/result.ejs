@@ -1,0 +1,27 @@
+<%- include('partials/header')%>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center" style="padding: 10px 0">
+        <img src="assets/ConvertMyMoney.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4 center" style="margin-top: 50px; text-align: center">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top img-thumbnail mx-auto d-block" src="assets/conv.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">valor $<%- valor %> dolares</h5>
+            <h5>Cotação R$ <%- cotacao%> reais</h5>
+            <p class="card-text" style="font: 22px Arial">R$ <%- valor*cotacao %> Reais</p>
+            <a href="/" class="btn btn-primary">Voltar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>
+
+  <%- include('partials/footer')%>
