@@ -1,6 +1,5 @@
 # convertmymoney
 
-## ConvertMyMoney
 ### Projeto criado no Fullstack Master - DevPeno
 
 # Nodejs, Express
@@ -19,6 +18,6 @@
 ### Rodar a aplicação
 #### npm start
 
-###Acessar a aplicação
+### Acessar a aplicação
 #### http://localhost:3000
 
